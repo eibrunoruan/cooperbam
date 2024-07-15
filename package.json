@@ -1,6 +1,7 @@
 {
-  "name": "bruno-project",
-  "version": "0.1.0",
+  "name": "Cooperbam",
+  "version": "1.0.0",
+  "homepage": "https://eibrunoruan.github.io/cooperbam",
   "private": true,
   "dependencies": {
     "@chakra-ui/react": "^2.8.2",
@@ -30,6 +31,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-app-rewired start",
     "build": "react-app-rewired build",
     "test": "react-app-rewired test",
@@ -55,6 +58,7 @@
   },
   "devDependencies": {
     "daisyui": "^4.12.10",
+    "gh-pages": "^6.1.1",
     "tailwindcss": "^3.4.4",
     "wrangler": "^3.63.2"
   }
