@@ -1,15 +1,20 @@
 // tailwind.config.js
-
 module.exports = {
-  content: ["./src/**/*.{html,js,jsx}"], // Define onde o Tailwind CSS deve procurar por classes
+  darkMode: false, // ou 'class' se quiser ativar com uma classe
+  content: ["./src/**/*.{html,js,jsx}"],
   theme: {
     extend: {
-      // Aqui você pode estender ou substituir as configurações padrão do tema do Tailwind
+      fontFamily: {
+        sans: ['Helvetica', 'Arial', 'sans-serif'],
+        serif: ['Georgia', 'serif'],
+        mono: ['Courier New', 'monospace'],
+      },
     },
   },
   plugins: [
     require('daisyui'),
     require('@tailwindcss/forms'),
-    // Exemplo: require('@tailwindcss/forms'),
   ],
 };
+
+

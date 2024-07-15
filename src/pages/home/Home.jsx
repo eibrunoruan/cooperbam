@@ -1,15 +1,21 @@
-// src/pages/Home.jsx
 import React from 'react';
-import BannerImage from '../../components/banners/bannerimage';
-import Componente2 from '../../components/banners/estruturas/componente2'
-
+//import Ask from '../../components/ask/ask'
+import Reviews from '../../components/review/review'
+// import Teste from '../../components/homeBanner/Teste';
+import HomeBanner from '../../components/home/homebanner';
+import Galeria from '../../components/examplos/galeria'
+import Empresa from '../../components/examplos/projetoseempresa';
 
 function Home() {
   return (
     <div className="Home">
     
-      <BannerImage />
-      <Componente2 />
+      {/* <Teste /> */}
+      <HomeBanner />
+      <Galeria />
+      <Empresa />
+      {/* <Ask /> */}
+      <Reviews />
     </div>
   );
 }
