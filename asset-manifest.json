@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/cooperbam/static/css/main.2a4b7235.css",
-    "main.js": "/cooperbam/static/js/main.34cabff6.js",
+    "main.js": "/cooperbam/static/js/main.884e99b0.js",
     "static/js/453.1af14b6b.chunk.js": "/cooperbam/static/js/453.1af14b6b.chunk.js",
     "static/media/whatsapp.png": "/cooperbam/static/media/whatsapp.d1038eb1bce26b4dab85.png",
     "static/media/banana.png": "/cooperbam/static/media/banana.9b65bfbc5dd6a7c3d48e.png",
     "static/media/logo.png": "/cooperbam/static/media/logo.f332c271e8680d116868.png",
     "index.html": "/cooperbam/index.html",
     "main.2a4b7235.css.map": "/cooperbam/static/css/main.2a4b7235.css.map",
-    "main.34cabff6.js.map": "/cooperbam/static/js/main.34cabff6.js.map",
+    "main.884e99b0.js.map": "/cooperbam/static/js/main.884e99b0.js.map",
     "453.1af14b6b.chunk.js.map": "/cooperbam/static/js/453.1af14b6b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2a4b7235.css",
-    "static/js/main.34cabff6.js"
+    "static/js/main.884e99b0.js"
   ]
 }
