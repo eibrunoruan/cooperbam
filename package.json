@@ -1,6 +1,10 @@
 {
   "name": "bruno-project",
+<<<<<<< HEAD
   "version": "1.0.0",
+=======
+  "version": "0.1.0",
+>>>>>>> origin/main
   "homepage": "https://eibrunoruan.github.io/cooperbam",
   "private": true,
   "dependencies": {
