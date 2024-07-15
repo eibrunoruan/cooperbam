@@ -1,6 +1,7 @@
 {
   "name": "bruno-project",
   "version": "0.1.0",
+  "homepage": "https://eibrunoruan.github.io/cooperbam",
   "private": true,
   "dependencies": {
     "@chakra-ui/react": "^2.8.2",
